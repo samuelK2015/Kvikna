@@ -23,6 +23,7 @@ namespace Kvikna.word
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new WindowViewModel(this);
         }
     }
 }
